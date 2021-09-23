@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite thread-count="5" name="Team 5" parallel="tests">
+	<listeners>
+<listener class-name="com.qa.utility.Reporting"></listener>
+</listeners>
+	<test thread-count="5" name="ChromTest" parallel="none">
+		<parameter name="url" value="https://www.flipkart.com/" />
+		<parameter name="Browser" value="Chrome" />
+
+		<classes >
+		
+		<class name="com.qa.testScripts.TC_HomePageValidation_01" />
+		 
+	             <class name="com.qa.testScripts.TC_SuperCoin_01_1" />
+	            <class name="com.qa.testScripts.TC_SuperCoin_1_2" />
+	        <!-- 
+	             <class name="com.qa.testScripts.TC_HomePageValidation_01" />
+	             <class name="com.qa.testScripts.TC_SuperCoin_01_1" />
+	             <class name="com.qa.testScripts.TC_SuperCoin_1_2" />
+			   	
+			     <class name="com.qa.testScripts.TC_SearchingProduct_01" />
+	            <class name="com.qa.testScripts.TC_CartValidation_01" />  
+	             <class name="com.qa.testScripts.TC_Flight_01" />    
+	             <class name="com.qa.testScripts.TC_Advertisment_01" /> --> 
+	             
+		</classes>
+	
+	</test> <!-- Test -->
+
+
+
+
+</suite> <!-- Suite -->

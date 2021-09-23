@@ -1,0 +1,8 @@
+com\qa\pages\SearchingProductPages.class
+com\qa\pages\HomePageValidationPages.class
+com\qa\pages\FlightPages.class
+com\qa\pages\AdvertisementPages.class
+com\qa\utility\XLUtility.class
+com\qa\pages\CartValidationPages.class
+com\qa\pages\SupercoinPages.class
+com\qa\utility\Reporting.class

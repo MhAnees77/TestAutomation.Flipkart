@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[========LOGIN SUCCESFULL==========]]>
+    </line>
+    <line>
+      <![CDATA[User is in Home page]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[========LOGIN SUCCESFULL==========]]>
+    </line>
+    <line>
+      <![CDATA[count is :434 ====woooooh lets do further actions===]]>
+    </line>
+    <line>
+      <![CDATA[   =======================================================-----------
+]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/viewcart?otracker=Cart_Icon_Click]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :7
+Cart<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/travel/flights?otracker=nmenu_Flights]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Flights<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Offer Zone<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&otracker=nmenu_Grocery]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Grocery<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/offers-list/up-to-20-extra-discount?screen=dynamic&pk=themeViews%3DCnC-Min-10off%3ACnC-Min-10-4Grid-DT~widgetType%3DdealCard~contentType%3Dneo&wid=3.dealCard.OMU_1&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_paywith-supercoins-store_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_wc_view-all_1]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :VIEW ALL<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/eyewear/pr?sid=u73&p%5B%5D=facets.price_range.from%3D199&p%5B%5D=facets.price_range.to%3DMax&hpid=G1xuOQ8256iYkhmrrshZIKp7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.N7GUSMWLKBRX&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_1_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_N7GUSMWLKBRX_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_1_NA_view-all_1&cid=N7GUSMWLKBRX]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :ROYAL SON, VAST & more
+From ₹199
+Frames<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/home-furnishing/bed-linen-blankets/blankets/~cs-qix0pqx1ol/pr?sid=jra%2Cknw%2Cllw&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&hpid=h1wiWQK5H9NA_XKlgVmcCqp7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.9L9WZRF99A2W&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_2_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_9L9WZRF99A2W_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_2_NA_view-all_1&cid=9L9WZRF99A2W]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Blankets
+Upto 75% Off
+Colorful Range<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/kamal-bathroom-straight-shelf-18-inch-neo-plastic-wall/p/itmexajhguyfgm4u?pid=RSFEX9RGQXY9UC62&lid=LSTRSFEX9RGQXY9UC62NMUEDV&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.5MNWK1J23XZE&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_3_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_5MNWK1J23XZE_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_3_NA_view-all_1&cid=5MNWK1J23XZE]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :KAMAL Bathroom Straight Shelf 18 Inch - Neo Plastic Wall Shelf
+Just ₹49
+₹499₹580<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/home-furnishing/bed-linen-blankets/bedsheets/~cs-qix0pqx1ol/pr?sid=jra%2Cknw%2Cqcw&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&hpid=HSOE0WFPYuNvN--ItDnwo6p7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.IIZ2YBHVXD9N&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_4_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_IIZ2YBHVXD9N_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_4_NA_view-all_1&cid=IIZ2YBHVXD9N]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Bedsheets
+From ₹149
+Designer Range<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/home-improvement/tools-and-measuring-equipment/hand-tools/pliers/pr?sid=h1m,hww,fgi,ioz&offer=nb:mp:0778b5fd02,nb:mp:07d6471b02&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.VTNLNNUZP8C1&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_5_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_VTNLNNUZP8C1_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_5_NA_view-all_1&cid=VTNLNNUZP8C1]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Pliers
+Just ₹1
+Pay Coins<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/jackly-jk-6036-combination-screwdriver-set/p/itme4ndh4c8fycyg?pid=SCSEFG7UKJP8UEUV&lid=LSTSCSEFG7UKJP8UEUVWH6Z1H&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.H76EZ31GO7P2&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_6_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_H76EZ31GO7P2_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_6_NA_view-all_1&cid=H76EZ31GO7P2]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :JACKLY JK 6036 Combination Screwdriver Set
+Just ₹1
+₹251₹499<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/sewing-machines/pr?sid=j9e%2Cabm%2C0zg&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.F62CW7G5J0SG&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_7_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_F62CW7G5J0SG_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_7_NA_view-all_1&cid=F62CW7G5J0SG]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Sewing Machines
+Shop Now!
+Make a New Hobby!<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/fendo-2-fold-black-silver-person-umbrella/p/itmeuxfbfz9hfdeh?pid=UMBEUXFBYKTT7YWM&lid=LSTUMBEUXFBYKTT7YWMNTXYI2&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.QOYE2YVYMB9N&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_8_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_QOYE2YVYMB9N_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_8_NA_view-all_1&cid=QOYE2YVYMB9N]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Fendo 2 Fold Black silver 2 person Umbrella
+Just ₹99
+₹849₹851<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/offers-list/budget-deals?screen=dynamic&pk=themeViews%3DCnC-BudgetDeals%3ACnC-BudgetDeals-DT~widgetType%3DdealCard~contentType%3Dneo&wid=4.dealCard.OMU_2&otracker=clp_omu_Budget%2BDeals_paywith-supercoins-store_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_wc_view-all_2]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :VIEW ALL<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/search?sid=zlw&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.brand%255B%255D%3DFlipkart%2BSmartBuy&p%5B%5D=facets.brand%255B%255D%3DOral-B&p%5B%5D=facets.brand%255B%255D%3DLifelong&p%5B%5D=facets.brand%255B%255D%3Drealme&p%5B%5D=facets.brand%255B%255D%3DColgate&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.H6Z02VMD6XUN&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_1_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_H6Z02VMD6XUN_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_1_NA_view-all_2&cid=H6Z02VMD6XUN]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Styling & Health Care Devices
+From ₹249
+Extra 5% off on Super Coins<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/chimney/pr?sid=j9e%2Cm38%2Ctgz&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.EFQ4YUGX76EV&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_2_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_EFQ4YUGX76EV_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_2_NA_view-all_2&cid=EFQ4YUGX76EV]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Kitchen Chimneys
+Shop Now!
+Top Brands!<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/home-kitchen/kitchen-appliances/microwave-ovens/~cs-czjgpiv7tz/pr?sid=j9e%2Cm38%2Co49&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.J1SRH6YNV0WO&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_3_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_J1SRH6YNV0WO_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_3_NA_view-all_2&cid=J1SRH6YNV0WO]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Microwaves
+Shop Now!
+Cooking Made Easy!<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/air-purifiers/pr?sid=j9e%2Cabm%2C3o4&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.4ZVNIKQKU9AJ&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_4_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_4ZVNIKQKU9AJ_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_4_NA_view-all_2&cid=4ZVNIKQKU9AJ]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Top Air Purifiers
+Shop Now!
+Breathe Fresh & Clean!<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/water-purifiers/pr?sid=j9e%2Cabm%2Ci45&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.8I49H8LGQU8W&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_5_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_8I49H8LGQU8W_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_5_NA_view-all_2&cid=8I49H8LGQU8W]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Top Water Purifiers
+Shop Now!
+Drink Pure | Stay Healthy!<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/mobile-accessories/power-banks/pr?sid=tyy%2C4mr%2Cfu6&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.CO8N31MPH19Z&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_6_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_CO8N31MPH19Z_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_6_NA_view-all_2&cid=CO8N31MPH19Z]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Powerbanks
+Min Extra 5% Off
+Upto 60% Off<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/helpcentre?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Contact Us<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/about-us?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :About Us<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkartcareers.com/?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Careers<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :http://stories.flipkart.com/?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Flipkart Stories<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/s/press?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Press<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkartwholesale.com/?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Flipkart Wholesale<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/corporate-information]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Corporate Information<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/pages/payments]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Payments<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/pages/shipping]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Shipping<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Cancellation & Returns<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :FAQ<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://seller.flipkart.com/fiv?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Report Infringement<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/pages/returnpolicy?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Return Policy<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/pages/terms?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Terms Of Use<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/pages/paymentsecurity?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Security<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/pages/privacypolicy?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Privacy<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/sitemap?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Sitemap<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/pages/ewaste-compliance-tnc?otracker=undefined_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :EPR Compliance<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.facebook.com/flipkart]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Facebook<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.twitter.com/flipkart]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Twitter<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.youtube.com/flipkart]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :YouTube<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :tel:18002029898]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :1800 202 9898<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Sell On Flipkart<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://brands.flipkart.com/]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Advertise<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/the-gift-card-store?otracker=undefined_footer_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Gift Cards<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/helpcentre?otracker=undefined_footer_footer_navlinks]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :Help Center<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Links on pages are :https://www.flipkart.com/paywith-supercoins-store?_pxhc=1632236848100]]>
+    </line>
+    <line>
+      <![CDATA[Test on pages are :<br/>]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[========LOGIN SUCCESFULL==========]]>
+    </line>
+  </reporter-output>
+  <suite name="Team 5" duration-ms="104817" started-at="2021-09-21T20:36:31 IST" finished-at="2021-09-21T20:38:16 IST">
+    <groups>
+    </groups>
+    <test name="ChromTest" duration-ms="104817" started-at="2021-09-21T20:36:31 IST" finished-at="2021-09-21T20:38:16 IST">
+      <class name="com.qa.testScripts.TC_SuperCoin_01_1">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testScripts.TC_SuperCoin_01_1@376b4233]" name="setUp" is-config="true" duration-ms="14058" started-at="2021-09-21T20:36:59 IST" finished-at="2021-09-21T20:37:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+            <line>
+              <![CDATA[========LOGIN SUCCESFULL==========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="handleCoin()[pri:0, instance:com.qa.testScripts.TC_SuperCoin_01_1@376b4233]" name="handleCoin" duration-ms="23960" started-at="2021-09-21T20:37:13 IST" finished-at="2021-09-21T20:37:37 IST">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //*[@id=\"container\"]/div/div[3]/div/div[2]/div[1]/div/div/h1 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"container\"]/div/div[3]/div/div[2]/div[1]/div/div/h1' is not a valid XPath expression.
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANEES', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43a0a8020b5da907ee29aa81d368e01c
+*** Element info: {Using=xpath, value=//*[@id=\"container\"]/div/div[3]/div/div[2]/div[1]/div/div/h1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"container\"]/div/div[3]/div/div[2]/div[1]/div/div/h1 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"container\"]/div/div[3]/div/div[2]/div[1]/div/div/h1' is not a valid XPath expression.
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANEES', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43a0a8020b5da907ee29aa81d368e01c
+*** Element info: {Using=xpath, value=//*[@id=\"container\"]/div/div[3]/div/div[2]/div[1]/div/div/h1}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.getText(Unknown Source)
+at com.qa.testScripts.TC_SuperCoin_01_1.handleCoin(TC_SuperCoin_01_1.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[count is :434 ====woooooh lets do further actions===]]>
+            </line>
+            <line>
+              <![CDATA[   =======================================================-----------
+]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/viewcart?otracker=Cart_Icon_Click]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :7
+Cart<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/travel/flights?otracker=nmenu_Flights]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Flights<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Offer Zone<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&otracker=nmenu_Grocery]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Grocery<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/offers-list/up-to-20-extra-discount?screen=dynamic&pk=themeViews%3DCnC-Min-10off%3ACnC-Min-10-4Grid-DT~widgetType%3DdealCard~contentType%3Dneo&wid=3.dealCard.OMU_1&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_paywith-supercoins-store_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_wc_view-all_1]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :VIEW ALL<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/eyewear/pr?sid=u73&p%5B%5D=facets.price_range.from%3D199&p%5B%5D=facets.price_range.to%3DMax&hpid=G1xuOQ8256iYkhmrrshZIKp7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.N7GUSMWLKBRX&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_1_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_N7GUSMWLKBRX_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_1_NA_view-all_1&cid=N7GUSMWLKBRX]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :ROYAL SON, VAST & more
+From ₹199
+Frames<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/home-furnishing/bed-linen-blankets/blankets/~cs-qix0pqx1ol/pr?sid=jra%2Cknw%2Cllw&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&hpid=h1wiWQK5H9NA_XKlgVmcCqp7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.9L9WZRF99A2W&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_2_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_9L9WZRF99A2W_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_2_NA_view-all_1&cid=9L9WZRF99A2W]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Blankets
+Upto 75% Off
+Colorful Range<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/kamal-bathroom-straight-shelf-18-inch-neo-plastic-wall/p/itmexajhguyfgm4u?pid=RSFEX9RGQXY9UC62&lid=LSTRSFEX9RGQXY9UC62NMUEDV&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.5MNWK1J23XZE&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_3_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_5MNWK1J23XZE_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_3_NA_view-all_1&cid=5MNWK1J23XZE]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :KAMAL Bathroom Straight Shelf 18 Inch - Neo Plastic Wall Shelf
+Just ₹49
+₹499₹580<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/home-furnishing/bed-linen-blankets/bedsheets/~cs-qix0pqx1ol/pr?sid=jra%2Cknw%2Cqcw&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&hpid=HSOE0WFPYuNvN--ItDnwo6p7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.IIZ2YBHVXD9N&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_4_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_IIZ2YBHVXD9N_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_4_NA_view-all_1&cid=IIZ2YBHVXD9N]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Bedsheets
+From ₹149
+Designer Range<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/home-improvement/tools-and-measuring-equipment/hand-tools/pliers/pr?sid=h1m,hww,fgi,ioz&offer=nb:mp:0778b5fd02,nb:mp:07d6471b02&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.VTNLNNUZP8C1&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_5_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_VTNLNNUZP8C1_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_5_NA_view-all_1&cid=VTNLNNUZP8C1]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Pliers
+Just ₹1
+Pay Coins<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/jackly-jk-6036-combination-screwdriver-set/p/itme4ndh4c8fycyg?pid=SCSEFG7UKJP8UEUV&lid=LSTSCSEFG7UKJP8UEUVWH6Z1H&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.H76EZ31GO7P2&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_6_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_H76EZ31GO7P2_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_6_NA_view-all_1&cid=H76EZ31GO7P2]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :JACKLY JK 6036 Combination Screwdriver Set
+Just ₹1
+₹251₹499<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/sewing-machines/pr?sid=j9e%2Cabm%2C0zg&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.F62CW7G5J0SG&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_7_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_F62CW7G5J0SG_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_7_NA_view-all_1&cid=F62CW7G5J0SG]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Sewing Machines
+Shop Now!
+Make a New Hobby!<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/fendo-2-fold-black-silver-person-umbrella/p/itmeuxfbfz9hfdeh?pid=UMBEUXFBYKTT7YWM&lid=LSTUMBEUXFBYKTT7YWMNTXYI2&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.QOYE2YVYMB9N&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_8_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_QOYE2YVYMB9N_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_8_NA_view-all_1&cid=QOYE2YVYMB9N]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Fendo 2 Fold Black silver 2 person Umbrella
+Just ₹99
+₹849₹851<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/offers-list/budget-deals?screen=dynamic&pk=themeViews%3DCnC-BudgetDeals%3ACnC-BudgetDeals-DT~widgetType%3DdealCard~contentType%3Dneo&wid=4.dealCard.OMU_2&otracker=clp_omu_Budget%2BDeals_paywith-supercoins-store_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_wc_view-all_2]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :VIEW ALL<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/search?sid=zlw&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.brand%255B%255D%3DFlipkart%2BSmartBuy&p%5B%5D=facets.brand%255B%255D%3DOral-B&p%5B%5D=facets.brand%255B%255D%3DLifelong&p%5B%5D=facets.brand%255B%255D%3Drealme&p%5B%5D=facets.brand%255B%255D%3DColgate&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.H6Z02VMD6XUN&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_1_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_H6Z02VMD6XUN_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_1_NA_view-all_2&cid=H6Z02VMD6XUN]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Styling & Health Care Devices
+From ₹249
+Extra 5% off on Super Coins<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/chimney/pr?sid=j9e%2Cm38%2Ctgz&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.EFQ4YUGX76EV&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_2_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_EFQ4YUGX76EV_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_2_NA_view-all_2&cid=EFQ4YUGX76EV]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Kitchen Chimneys
+Shop Now!
+Top Brands!<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/home-kitchen/kitchen-appliances/microwave-ovens/~cs-czjgpiv7tz/pr?sid=j9e%2Cm38%2Co49&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.J1SRH6YNV0WO&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_3_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_J1SRH6YNV0WO_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_3_NA_view-all_2&cid=J1SRH6YNV0WO]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Microwaves
+Shop Now!
+Cooking Made Easy!<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/air-purifiers/pr?sid=j9e%2Cabm%2C3o4&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.4ZVNIKQKU9AJ&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_4_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_4ZVNIKQKU9AJ_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_4_NA_view-all_2&cid=4ZVNIKQKU9AJ]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Top Air Purifiers
+Shop Now!
+Breathe Fresh & Clean!<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/water-purifiers/pr?sid=j9e%2Cabm%2Ci45&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.8I49H8LGQU8W&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_5_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_8I49H8LGQU8W_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_5_NA_view-all_2&cid=8I49H8LGQU8W]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Top Water Purifiers
+Shop Now!
+Drink Pure | Stay Healthy!<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/mobile-accessories/power-banks/pr?sid=tyy%2C4mr%2Cfu6&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.CO8N31MPH19Z&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_6_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_CO8N31MPH19Z_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_6_NA_view-all_2&cid=CO8N31MPH19Z]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Powerbanks
+Min Extra 5% Off
+Upto 60% Off<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/helpcentre?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Contact Us<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/about-us?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :About Us<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkartcareers.com/?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Careers<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :http://stories.flipkart.com/?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Flipkart Stories<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/s/press?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Press<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkartwholesale.com/?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Flipkart Wholesale<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/corporate-information]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Corporate Information<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/pages/payments]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Payments<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/pages/shipping]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Shipping<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Cancellation & Returns<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :FAQ<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://seller.flipkart.com/fiv?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Report Infringement<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/pages/returnpolicy?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Return Policy<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/pages/terms?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Terms Of Use<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/pages/paymentsecurity?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Security<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/pages/privacypolicy?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Privacy<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/sitemap?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Sitemap<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/pages/ewaste-compliance-tnc?otracker=undefined_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :EPR Compliance<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.facebook.com/flipkart]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Facebook<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.twitter.com/flipkart]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Twitter<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.youtube.com/flipkart]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :YouTube<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :tel:18002029898]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :1800 202 9898<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Sell On Flipkart<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://brands.flipkart.com/]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Advertise<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/the-gift-card-store?otracker=undefined_footer_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Gift Cards<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/helpcentre?otracker=undefined_footer_footer_navlinks]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :Help Center<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Links on pages are :https://www.flipkart.com/paywith-supercoins-store?_pxhc=1632236848100]]>
+            </line>
+            <line>
+              <![CDATA[Test on pages are :<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleCoin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testScripts.TC_SuperCoin_01_1@376b4233]" name="tearDown" is-config="true" duration-ms="8061" started-at="2021-09-21T20:37:37 IST" finished-at="2021-09-21T20:37:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testScripts.TC_SuperCoin_01_1 -->
+      <class name="com.qa.testScripts.TC_HomePageValidation_01">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testScripts.TC_HomePageValidation_01@fcd6521]" name="setUp" is-config="true" duration-ms="13493" started-at="2021-09-21T20:36:31 IST" finished-at="2021-09-21T20:36:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+            <line>
+              <![CDATA[========LOGIN SUCCESFULL==========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="handleElectronics()[pri:0, instance:com.qa.testScripts.TC_HomePageValidation_01@fcd6521]" name="handleElectronics" duration-ms="4011" started-at="2021-09-21T20:36:44 IST" finished-at="2021-09-21T20:36:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User is in Home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleElectronics -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testScripts.TC_HomePageValidation_01@fcd6521]" name="tearDown" is-config="true" duration-ms="10956" started-at="2021-09-21T20:36:48 IST" finished-at="2021-09-21T20:36:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testScripts.TC_HomePageValidation_01 -->
+      <class name="com.qa.testScripts.TC_SuperCoin_1_2">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testScripts.TC_SuperCoin_1_2@2fd66ad3]" name="setUp" is-config="true" duration-ms="13607" started-at="2021-09-21T20:37:45 IST" finished-at="2021-09-21T20:37:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+            <line>
+              <![CDATA[========LOGIN SUCCESFULL==========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="handleWishlist()[pri:0, instance:com.qa.testScripts.TC_SuperCoin_1_2@2fd66ad3]" name="handleWishlist" duration-ms="11208" started-at="2021-09-21T20:37:59 IST" finished-at="2021-09-21T20:38:10 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANEES', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5699b5f47f79cfb5283501de89160915
+*** Element info: {Using=xpath, value=//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANEES', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5699b5f47f79cfb5283501de89160915
+*** Element info: {Using=xpath, value=//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.qa.testScripts.TC_SuperCoin_1_2.handleWishlist(TC_SuperCoin_1_2.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleWishlist -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.testScripts.TC_SuperCoin_1_2@2fd66ad3]" name="tearDown" is-config="true" duration-ms="5293" started-at="2021-09-21T20:38:10 IST" finished-at="2021-09-21T20:38:16 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Logout')]"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANEES', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5699b5f47f79cfb5283501de89160915
+*** Element info: {Using=xpath, value=//span[contains(text(),'Logout')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Logout')]"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANEES', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5699b5f47f79cfb5283501de89160915
+*** Element info: {Using=xpath, value=//span[contains(text(),'Logout')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.qa.testScripts.TestBase.handleLogOut(TestBase.java:147)
+at com.qa.testScripts.TestBase.tearDown(TestBase.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testScripts.TC_SuperCoin_1_2 -->
+    </test> <!-- ChromTest -->
+  </suite> <!-- Team 5 -->
+</testng-results>

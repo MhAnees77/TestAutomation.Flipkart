@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.qa.utility.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ChromTest(failed)" parallel="classes">
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.testScripts.TC_Flipkart_03">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="purschaseItem"/>
+        </methods>
+      </class> <!-- com.qa.testScripts.TC_Flipkart_03 -->
+      <class name="com.qa.testScripts.TC_Flipkart_05">
+        <methods>
+          <include name="setUp"/>
+          <include name="handleLgOut"/>
+          <include name="tearDown"/>
+          <include name="handleLogin" invocation-numbers="0"/>
+          <include name="handleAppliances"/>
+        </methods>
+      </class> <!-- com.qa.testScripts.TC_Flipkart_05 -->
+      <class name="com.qa.testScripts.TC_Flipkart_01">
+        <methods>
+          <include name="superCoin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="handleLogin" invocation-numbers="0"/>
+          <include name="handleLgOut"/>
+        </methods>
+      </class> <!-- com.qa.testScripts.TC_Flipkart_01 -->
+      <class name="com.qa.testScripts.TC_Flipkart_04">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="handleLogin" invocation-numbers="0"/>
+          <include name="handleLgOut"/>
+          <include name="handleSearchItems" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testScripts.TC_Flipkart_04 -->
+      <class name="com.qa.testScripts.TC_Flipkart_06">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="bookingFlightTct"/>
+        </methods>
+      </class> <!-- com.qa.testScripts.TC_Flipkart_06 -->
+      <class name="com.qa.testScripts.TC_Flipkart_02">
+        <methods>
+          <include name="handleElectronics"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testScripts.TC_Flipkart_02 -->
+    </classes>
+  </test> <!-- ChromTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

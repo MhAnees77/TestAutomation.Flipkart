@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Team 5]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.utility.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="ChromTest(failed)">
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.testScripts.TC_HomePageValidation_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="handleElectronics"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.testScripts.TC_HomePageValidation_01 -->
+      <class name="com.qa.testScripts.TC_SuperCoin_01_1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.testScripts.TC_SuperCoin_01_1 -->
+    </classes>
+  </test> <!-- ChromTest(failed) -->
+</suite> <!-- Failed suite [Team 5] -->

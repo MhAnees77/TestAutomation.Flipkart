@@ -1,0 +1,495 @@
+<html>
+<head>
+<title>TestNG:  ChromTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 21 20:36:31 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>104 seconds (104817 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testScripts.TC_SuperCoin_1_2.tearDown()'><b>tearDown</b><br>Test class: com.qa.testScripts.TC_SuperCoin_1_2</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Logout&apos;)]&quot;}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANEES&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5699b5f47f79cfb5283501de89160915
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Logout&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.testScripts.TestBase.handleLogOut(TestBase.java:147)
+	at com.qa.testScripts.TestBase.tearDown(TestBase.java:106)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace280096864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace280096864'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Logout&apos;)]&quot;}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANEES&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5699b5f47f79cfb5283501de89160915
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Logout&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.testScripts.TestBase.handleLogOut(TestBase.java:147)
+	at com.qa.testScripts.TestBase.tearDown(TestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>5</td>
+<td>com.qa.testScripts.TC_SuperCoin_1_2@2fd66ad3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testScripts.TC_SuperCoin_1_2.handleWishlist()'><b>handleWishlist</b><br>Test class: com.qa.testScripts.TC_SuperCoin_1_2</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;container&apos;]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]&quot;}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANEES&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5699b5f47f79cfb5283501de89160915
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;container&apos;]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.testScripts.TC_SuperCoin_1_2.handleWishlist(TC_SuperCoin_1_2.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace918524635", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace918524635'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;container&apos;]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]&quot;}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANEES&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5699b5f47f79cfb5283501de89160915
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;container&apos;]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.testScripts.TC_SuperCoin_1_2.handleWishlist(TC_SuperCoin_1_2.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>11</td>
+<td>com.qa.testScripts.TC_SuperCoin_1_2@2fd66ad3</td></tr>
+<tr>
+<td title='com.qa.testScripts.TC_SuperCoin_01_1.handleCoin()'><b>handleCoin</b><br>Test class: com.qa.testScripts.TC_SuperCoin_01_1<br/>
+<a href="#Output-487184592" onClick='toggleBox("Output-487184592", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-487184592" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-487184592">
+count is :434 ====woooooh lets do further actions===<br/>
+   =======================================================-----------
+<br/>
+Links on pages are :https://www.flipkart.com/<br/>
+Test on pages are :<br/><br/>
+Links on pages are :https://www.flipkart.com/viewcart?otracker=Cart_Icon_Click<br/>
+Test on pages are :7
+Cart<br/><br/>
+Links on pages are :https://www.flipkart.com/travel/flights?otracker=nmenu_Flights<br/>
+Test on pages are :Flights<br/><br/>
+Links on pages are :https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone<br/>
+Test on pages are :Offer Zone<br/><br/>
+Links on pages are :https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&otracker=nmenu_Grocery<br/>
+Test on pages are :Grocery<br/><br/>
+Links on pages are :https://www.flipkart.com/offers-list/up-to-20-extra-discount?screen=dynamic&pk=themeViews%3DCnC-Min-10off%3ACnC-Min-10-4Grid-DT~widgetType%3DdealCard~contentType%3Dneo&wid=3.dealCard.OMU_1&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_paywith-supercoins-store_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_wc_view-all_1<br/>
+Test on pages are :VIEW ALL<br/><br/>
+Links on pages are :https://www.flipkart.com/eyewear/pr?sid=u73&p%5B%5D=facets.price_range.from%3D199&p%5B%5D=facets.price_range.to%3DMax&hpid=G1xuOQ8256iYkhmrrshZIKp7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.N7GUSMWLKBRX&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_1_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_N7GUSMWLKBRX_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_1_NA_view-all_1&cid=N7GUSMWLKBRX<br/>
+Test on pages are :ROYAL SON, VAST & more
+From ?199
+Frames<br/><br/>
+Links on pages are :https://www.flipkart.com/home-furnishing/bed-linen-blankets/blankets/~cs-qix0pqx1ol/pr?sid=jra%2Cknw%2Cllw&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&hpid=h1wiWQK5H9NA_XKlgVmcCqp7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.9L9WZRF99A2W&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_2_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_9L9WZRF99A2W_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_2_NA_view-all_1&cid=9L9WZRF99A2W<br/>
+Test on pages are :Blankets
+Upto 75% Off
+Colorful Range<br/><br/>
+Links on pages are :https://www.flipkart.com/kamal-bathroom-straight-shelf-18-inch-neo-plastic-wall/p/itmexajhguyfgm4u?pid=RSFEX9RGQXY9UC62&lid=LSTRSFEX9RGQXY9UC62NMUEDV&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.5MNWK1J23XZE&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_3_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_5MNWK1J23XZE_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_3_NA_view-all_1&cid=5MNWK1J23XZE<br/>
+Test on pages are :KAMAL Bathroom Straight Shelf 18 Inch - Neo Plastic Wall Shelf
+Just ?49
+?499?580<br/><br/>
+Links on pages are :https://www.flipkart.com/home-furnishing/bed-linen-blankets/bedsheets/~cs-qix0pqx1ol/pr?sid=jra%2Cknw%2Cqcw&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&hpid=HSOE0WFPYuNvN--ItDnwo6p7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.IIZ2YBHVXD9N&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_4_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_IIZ2YBHVXD9N_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_4_NA_view-all_1&cid=IIZ2YBHVXD9N<br/>
+Test on pages are :Bedsheets
+From ?149
+Designer Range<br/><br/>
+Links on pages are :https://www.flipkart.com/home-improvement/tools-and-measuring-equipment/hand-tools/pliers/pr?sid=h1m,hww,fgi,ioz&offer=nb:mp:0778b5fd02,nb:mp:07d6471b02&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.VTNLNNUZP8C1&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_5_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_VTNLNNUZP8C1_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_5_NA_view-all_1&cid=VTNLNNUZP8C1<br/>
+Test on pages are :Pliers
+Just ?1
+Pay Coins<br/><br/>
+Links on pages are :https://www.flipkart.com/jackly-jk-6036-combination-screwdriver-set/p/itme4ndh4c8fycyg?pid=SCSEFG7UKJP8UEUV&lid=LSTSCSEFG7UKJP8UEUVWH6Z1H&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.H76EZ31GO7P2&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_6_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_H76EZ31GO7P2_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_6_NA_view-all_1&cid=H76EZ31GO7P2<br/>
+Test on pages are :JACKLY JK 6036 Combination Screwdriver Set
+Just ?1
+?251?499<br/><br/>
+Links on pages are :https://www.flipkart.com/sewing-machines/pr?sid=j9e%2Cabm%2C0zg&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.F62CW7G5J0SG&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_7_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_F62CW7G5J0SG_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_7_NA_view-all_1&cid=F62CW7G5J0SG<br/>
+Test on pages are :Sewing Machines
+Shop Now!
+Make a New Hobby!<br/><br/>
+Links on pages are :https://www.flipkart.com/fendo-2-fold-black-silver-person-umbrella/p/itmeuxfbfz9hfdeh?pid=UMBEUXFBYKTT7YWM&lid=LSTUMBEUXFBYKTT7YWMNTXYI2&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.QOYE2YVYMB9N&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_8_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_QOYE2YVYMB9N_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_8_NA_view-all_1&cid=QOYE2YVYMB9N<br/>
+Test on pages are :Fendo 2 Fold Black silver 2 person Umbrella
+Just ?99
+?849?851<br/><br/>
+Links on pages are :https://www.flipkart.com/offers-list/budget-deals?screen=dynamic&pk=themeViews%3DCnC-BudgetDeals%3ACnC-BudgetDeals-DT~widgetType%3DdealCard~contentType%3Dneo&wid=4.dealCard.OMU_2&otracker=clp_omu_Budget%2BDeals_paywith-supercoins-store_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_wc_view-all_2<br/>
+Test on pages are :VIEW ALL<br/><br/>
+Links on pages are :https://www.flipkart.com/search?sid=zlw&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.brand%255B%255D%3DFlipkart%2BSmartBuy&p%5B%5D=facets.brand%255B%255D%3DOral-B&p%5B%5D=facets.brand%255B%255D%3DLifelong&p%5B%5D=facets.brand%255B%255D%3Drealme&p%5B%5D=facets.brand%255B%255D%3DColgate&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.H6Z02VMD6XUN&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_1_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_H6Z02VMD6XUN_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_1_NA_view-all_2&cid=H6Z02VMD6XUN<br/>
+Test on pages are :Styling & Health Care Devices
+From ?249
+Extra 5% off on Super Coins<br/><br/>
+Links on pages are :https://www.flipkart.com/chimney/pr?sid=j9e%2Cm38%2Ctgz&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.EFQ4YUGX76EV&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_2_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_EFQ4YUGX76EV_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_2_NA_view-all_2&cid=EFQ4YUGX76EV<br/>
+Test on pages are :Kitchen Chimneys
+Shop Now!
+Top Brands!<br/><br/>
+Links on pages are :https://www.flipkart.com/home-kitchen/kitchen-appliances/microwave-ovens/~cs-czjgpiv7tz/pr?sid=j9e%2Cm38%2Co49&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.J1SRH6YNV0WO&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_3_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_J1SRH6YNV0WO_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_3_NA_view-all_2&cid=J1SRH6YNV0WO<br/>
+Test on pages are :Microwaves
+Shop Now!
+Cooking Made Easy!<br/><br/>
+Links on pages are :https://www.flipkart.com/air-purifiers/pr?sid=j9e%2Cabm%2C3o4&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.4ZVNIKQKU9AJ&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_4_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_4ZVNIKQKU9AJ_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_4_NA_view-all_2&cid=4ZVNIKQKU9AJ<br/>
+Test on pages are :Top Air Purifiers
+Shop Now!
+Breathe Fresh & Clean!<br/><br/>
+Links on pages are :https://www.flipkart.com/water-purifiers/pr?sid=j9e%2Cabm%2Ci45&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.8I49H8LGQU8W&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_5_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_8I49H8LGQU8W_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_5_NA_view-all_2&cid=8I49H8LGQU8W<br/>
+Test on pages are :Top Water Purifiers
+Shop Now!
+Drink Pure | Stay Healthy!<br/><br/>
+Links on pages are :https://www.flipkart.com/mobile-accessories/power-banks/pr?sid=tyy%2C4mr%2Cfu6&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.CO8N31MPH19Z&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_6_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_CO8N31MPH19Z_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_6_NA_view-all_2&cid=CO8N31MPH19Z<br/>
+Test on pages are :Powerbanks
+Min Extra 5% Off
+Upto 60% Off<br/><br/>
+Links on pages are :https://www.flipkart.com/helpcentre?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Contact Us<br/><br/>
+Links on pages are :https://www.flipkart.com/about-us?otracker=undefined_footer_navlinks<br/>
+Test on pages are :About Us<br/><br/>
+Links on pages are :https://www.flipkartcareers.com/?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Careers<br/><br/>
+Links on pages are :http://stories.flipkart.com/?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Flipkart Stories<br/><br/>
+Links on pages are :https://www.flipkart.com/s/press?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Press<br/><br/>
+Links on pages are :https://www.flipkartwholesale.com/?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Flipkart Wholesale<br/><br/>
+Links on pages are :https://www.flipkart.com/corporate-information<br/>
+Test on pages are :Corporate Information<br/><br/>
+Links on pages are :https://www.flipkart.com/pages/payments<br/>
+Test on pages are :Payments<br/><br/>
+Links on pages are :https://www.flipkart.com/pages/shipping<br/>
+Test on pages are :Shipping<br/><br/>
+Links on pages are :https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG<br/>
+Test on pages are :Cancellation & Returns<br/><br/>
+Links on pages are :https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG<br/>
+Test on pages are :FAQ<br/><br/>
+Links on pages are :https://seller.flipkart.com/fiv?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Report Infringement<br/><br/>
+Links on pages are :https://www.flipkart.com/pages/returnpolicy?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Return Policy<br/><br/>
+Links on pages are :https://www.flipkart.com/pages/terms?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Terms Of Use<br/><br/>
+Links on pages are :https://www.flipkart.com/pages/paymentsecurity?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Security<br/><br/>
+Links on pages are :https://www.flipkart.com/pages/privacypolicy?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Privacy<br/><br/>
+Links on pages are :https://www.flipkart.com/sitemap?otracker=undefined_footer_navlinks<br/>
+Test on pages are :Sitemap<br/><br/>
+Links on pages are :https://www.flipkart.com/pages/ewaste-compliance-tnc?otracker=undefined_footer_navlinks<br/>
+Test on pages are :EPR Compliance<br/><br/>
+Links on pages are :https://www.facebook.com/flipkart<br/>
+Test on pages are :Facebook<br/><br/>
+Links on pages are :https://www.twitter.com/flipkart<br/>
+Test on pages are :Twitter<br/><br/>
+Links on pages are :https://www.youtube.com/flipkart<br/>
+Test on pages are :YouTube<br/><br/>
+Links on pages are :tel:18002029898<br/>
+Test on pages are :1800 202 9898<br/><br/>
+Links on pages are :https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect<br/>
+Test on pages are :Sell On Flipkart<br/><br/>
+Links on pages are :https://brands.flipkart.com/<br/>
+Test on pages are :Advertise<br/><br/>
+Links on pages are :https://www.flipkart.com/the-gift-card-store?otracker=undefined_footer_footer_navlinks<br/>
+Test on pages are :Gift Cards<br/><br/>
+Links on pages are :https://www.flipkart.com/helpcentre?otracker=undefined_footer_footer_navlinks<br/>
+Test on pages are :Help Center<br/><br/>
+Links on pages are :https://www.flipkart.com/paywith-supercoins-store?_pxhc=1632236848100<br/>
+Test on pages are :<br/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\&quot;container\&quot;]/div/div[3]/div/div[2]/div[1]/div/div/h1 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=\&quot;container\&quot;]/div/div[3]/div/div[2]/div[1]/div/div/h1&apos; is not a valid XPath expression.
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANEES&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43a0a8020b5da907ee29aa81d368e01c
+*** Element info: {Using=xpath, value=//*[@id=\&quot;container\&quot;]/div/div[3]/div/div[2]/div[1]/div/div/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at com.qa.testScripts.TC_SuperCoin_01_1.handleCoin(TC_SuperCoin_01_1.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace487184592", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace487184592'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\&quot;container\&quot;]/div/div[3]/div/div[2]/div[1]/div/div/h1 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=\&quot;container\&quot;]/div/div[3]/div/div[2]/div[1]/div/div/h1&apos; is not a valid XPath expression.
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANEES&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43a0a8020b5da907ee29aa81d368e01c
+*** Element info: {Using=xpath, value=//*[@id=\&quot;container\&quot;]/div/div[3]/div/div[2]/div[1]/div/div/h1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at com.qa.testScripts.TC_SuperCoin_01_1.handleCoin(TC_SuperCoin_01_1.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>23</td>
+<td>com.qa.testScripts.TC_SuperCoin_01_1@376b4233</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testScripts.TC_HomePageValidation_01.handleElectronics()'><b>handleElectronics</b><br>Test class: com.qa.testScripts.TC_HomePageValidation_01<br/>
+<a href="#Output-949544070" onClick='toggleBox("Output-949544070", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-949544070" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-949544070">
+User is in Home page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.qa.testScripts.TC_HomePageValidation_01@fcd6521</td></tr>
+</table><p>
+</body>
+</html>

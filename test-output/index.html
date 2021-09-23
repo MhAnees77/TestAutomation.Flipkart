@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Team_5">
+              <span class="suite-name border-failed">Team 5</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Team_5">
+                    <span>C:\WORKSPACE\TestAutomation.Flipkart\src\test\java\com\qa\utility\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Team_5">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Team_5">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Team_5">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Team_5">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Team_5">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Team_5">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Team_5" class="hide-methods failed suite-Team_5"> (hide)</a> <!-- hide-methods failed suite-Team_5 -->
+                      <a href="#" panel-name="suite-Team_5" class="show-methods failed suite-Team_5"> (show)</a> <!-- show-methods failed suite-Team_5 -->
+                    </span>
+                    <div class="method-list-content failed suite-Team_5">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Team_5" title="com.qa.testScripts.TC_SuperCoin_01_1" hash-for-method="handleCoin">handleCoin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Team_5" title="com.qa.testScripts.TC_SuperCoin_1_2" hash-for-method="handleWishlist">handleWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Team_5 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Team_5" class="hide-methods passed suite-Team_5"> (hide)</a> <!-- hide-methods passed suite-Team_5 -->
+                      <a href="#" panel-name="suite-Team_5" class="show-methods passed suite-Team_5"> (show)</a> <!-- show-methods passed suite-Team_5 -->
+                    </span>
+                    <div class="method-list-content passed suite-Team_5">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Team_5" title="com.qa.testScripts.TC_HomePageValidation_01" hash-for-method="handleElectronics">handleElectronics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Team_5 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Team_5" class="panel Team_5">
+          <div class="suite-Team_5-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.testScripts.TC_SuperCoin_1_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleWishlist">
+                  </a> <!-- handleWishlist -->
+                  <span class="method-name">handleWishlist</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;container&apos;]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]&quot;}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANEES&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5699b5f47f79cfb5283501de89160915
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;container&apos;]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.testScripts.TC_SuperCoin_1_2.handleWishlist(TC_SuperCoin_1_2.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Team_5-class-failed -->
+          <div class="suite-Team_5-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.testScripts.TC_SuperCoin_01_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleCoin">
+                  </a> <!-- handleCoin -->
+                  <span class="method-name">handleCoin</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\&quot;container\&quot;]/div/div[3]/div/div[2]/div[1]/div/div/h1 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=\&quot;container\&quot;]/div/div[3]/div/div[2]/div[1]/div/div/h1&apos; is not a valid XPath expression.
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANEES&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\muham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43a0a8020b5da907ee29aa81d368e01c
+*** Element info: {Using=xpath, value=//*[@id=\&quot;container\&quot;]/div/div[3]/div/div[2]/div[1]/div/div/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at com.qa.testScripts.TC_SuperCoin_01_1.handleCoin(TC_SuperCoin_01_1.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Team_5-class-failed -->
+          <div class="suite-Team_5-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testScripts.TC_HomePageValidation_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleElectronics">
+                  </a> <!-- handleElectronics -->
+                  <span class="method-name">handleElectronics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Team_5-class-passed -->
+        </div> <!-- panel Team_5 -->
+        <div panel-name="test-xml-Team_5" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\WORKSPACE\TestAutomation.Flipkart\src\test\java\com\qa\utility\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Team 5&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.utility.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromTest&quot;&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.flipkart.com/&quot;/&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.testScripts.TC_HomePageValidation_01&quot;/&gt;
+      &lt;class name=&quot;com.qa.testScripts.TC_SuperCoin_01_1&quot;/&gt;
+      &lt;class name=&quot;com.qa.testScripts.TC_SuperCoin_1_2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromTest --&gt;
+&lt;/suite&gt; &lt;!-- Team 5 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Team_5" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Team 5</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Team_5" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Team 5</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Team_5" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Team 5</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Team_5');
+function tableData_Team_5() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'handleCoin')
+data.setCell(0, 2, 'com.qa.testScripts.TC_SuperCoin_01_1')
+data.setCell(0, 3, 23960);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'handleWishlist')
+data.setCell(1, 2, 'com.qa.testScripts.TC_SuperCoin_1_2')
+data.setCell(1, 3, 11208);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'handleElectronics')
+data.setCell(2, 2, 'com.qa.testScripts.TC_HomePageValidation_01')
+data.setCell(2, 3, 4011);
+window.suiteTableData['Team_5']= { tableData: data, tableDiv: 'times-div-Team_5'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Team_5">
+              </div> <!-- times-div-Team_5 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Team_5" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Team 5</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">handleElectronics</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">User is in Home page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">handleCoin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">count is :434 ====woooooh lets do further actions===</span>
+                <span class="reporter-method-output">   =======================================================-----------
+</span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/</span>
+                <span class="reporter-method-output">Test on pages are :<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/viewcart?otracker=Cart_Icon_Click</span>
+                <span class="reporter-method-output">Test on pages are :7
+Cart<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/travel/flights?otracker=nmenu_Flights</span>
+                <span class="reporter-method-output">Test on pages are :Flights<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone</span>
+                <span class="reporter-method-output">Test on pages are :Offer Zone<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&otracker=nmenu_Grocery</span>
+                <span class="reporter-method-output">Test on pages are :Grocery<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/offers-list/up-to-20-extra-discount?screen=dynamic&pk=themeViews%3DCnC-Min-10off%3ACnC-Min-10-4Grid-DT~widgetType%3DdealCard~contentType%3Dneo&wid=3.dealCard.OMU_1&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_paywith-supercoins-store_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_wc_view-all_1</span>
+                <span class="reporter-method-output">Test on pages are :VIEW ALL<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/eyewear/pr?sid=u73&p%5B%5D=facets.price_range.from%3D199&p%5B%5D=facets.price_range.to%3DMax&hpid=G1xuOQ8256iYkhmrrshZIKp7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.N7GUSMWLKBRX&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_1_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_N7GUSMWLKBRX_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_1_NA_view-all_1&cid=N7GUSMWLKBRX</span>
+                <span class="reporter-method-output">Test on pages are :ROYAL SON, VAST & more
+From ₹199
+Frames<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/home-furnishing/bed-linen-blankets/blankets/~cs-qix0pqx1ol/pr?sid=jra%2Cknw%2Cllw&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&hpid=h1wiWQK5H9NA_XKlgVmcCqp7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.9L9WZRF99A2W&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_2_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_9L9WZRF99A2W_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_2_NA_view-all_1&cid=9L9WZRF99A2W</span>
+                <span class="reporter-method-output">Test on pages are :Blankets
+Upto 75% Off
+Colorful Range<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/kamal-bathroom-straight-shelf-18-inch-neo-plastic-wall/p/itmexajhguyfgm4u?pid=RSFEX9RGQXY9UC62&lid=LSTRSFEX9RGQXY9UC62NMUEDV&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.5MNWK1J23XZE&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_3_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_5MNWK1J23XZE_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_3_NA_view-all_1&cid=5MNWK1J23XZE</span>
+                <span class="reporter-method-output">Test on pages are :KAMAL Bathroom Straight Shelf 18 Inch - Neo Plastic Wall Shelf
+Just ₹49
+₹499₹580<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/home-furnishing/bed-linen-blankets/bedsheets/~cs-qix0pqx1ol/pr?sid=jra%2Cknw%2Cqcw&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&hpid=HSOE0WFPYuNvN--ItDnwo6p7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.IIZ2YBHVXD9N&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_4_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_IIZ2YBHVXD9N_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_4_NA_view-all_1&cid=IIZ2YBHVXD9N</span>
+                <span class="reporter-method-output">Test on pages are :Bedsheets
+From ₹149
+Designer Range<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/home-improvement/tools-and-measuring-equipment/hand-tools/pliers/pr?sid=h1m,hww,fgi,ioz&offer=nb:mp:0778b5fd02,nb:mp:07d6471b02&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.VTNLNNUZP8C1&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_5_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_VTNLNNUZP8C1_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_5_NA_view-all_1&cid=VTNLNNUZP8C1</span>
+                <span class="reporter-method-output">Test on pages are :Pliers
+Just ₹1
+Pay Coins<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/jackly-jk-6036-combination-screwdriver-set/p/itme4ndh4c8fycyg?pid=SCSEFG7UKJP8UEUV&lid=LSTSCSEFG7UKJP8UEUVWH6Z1H&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.H76EZ31GO7P2&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_6_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_H76EZ31GO7P2_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_6_NA_view-all_1&cid=H76EZ31GO7P2</span>
+                <span class="reporter-method-output">Test on pages are :JACKLY JK 6036 Combination Screwdriver Set
+Just ₹1
+₹251₹499<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/sewing-machines/pr?sid=j9e%2Cabm%2C0zg&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.F62CW7G5J0SG&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_7_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_F62CW7G5J0SG_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_7_NA_view-all_1&cid=F62CW7G5J0SG</span>
+                <span class="reporter-method-output">Test on pages are :Sewing Machines
+Shop Now!
+Make a New Hobby!<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/fendo-2-fold-black-silver-person-umbrella/p/itmeuxfbfz9hfdeh?pid=UMBEUXFBYKTT7YWM&lid=LSTUMBEUXFBYKTT7YWMNTXYI2&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_3.QOYE2YVYMB9N&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Up%2Bto%2B20%2525%2BExtra%2BDiscount_8_3.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_QOYE2YVYMB9N_1&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Up%2Bto%2B20%2525%2BExtra%2BDiscount_NA_dealCard_cc_8_NA_view-all_1&cid=QOYE2YVYMB9N</span>
+                <span class="reporter-method-output">Test on pages are :Fendo 2 Fold Black silver 2 person Umbrella
+Just ₹99
+₹849₹851<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/offers-list/budget-deals?screen=dynamic&pk=themeViews%3DCnC-BudgetDeals%3ACnC-BudgetDeals-DT~widgetType%3DdealCard~contentType%3Dneo&wid=4.dealCard.OMU_2&otracker=clp_omu_Budget%2BDeals_paywith-supercoins-store_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_wc_view-all_2</span>
+                <span class="reporter-method-output">Test on pages are :VIEW ALL<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/search?sid=zlw&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.brand%255B%255D%3DFlipkart%2BSmartBuy&p%5B%5D=facets.brand%255B%255D%3DOral-B&p%5B%5D=facets.brand%255B%255D%3DLifelong&p%5B%5D=facets.brand%255B%255D%3Drealme&p%5B%5D=facets.brand%255B%255D%3DColgate&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.H6Z02VMD6XUN&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_1_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_H6Z02VMD6XUN_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_1_NA_view-all_2&cid=H6Z02VMD6XUN</span>
+                <span class="reporter-method-output">Test on pages are :Styling & Health Care Devices
+From ₹249
+Extra 5% off on Super Coins<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/chimney/pr?sid=j9e%2Cm38%2Ctgz&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.EFQ4YUGX76EV&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_2_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_EFQ4YUGX76EV_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_2_NA_view-all_2&cid=EFQ4YUGX76EV</span>
+                <span class="reporter-method-output">Test on pages are :Kitchen Chimneys
+Shop Now!
+Top Brands!<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/home-kitchen/kitchen-appliances/microwave-ovens/~cs-czjgpiv7tz/pr?sid=j9e%2Cm38%2Co49&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.J1SRH6YNV0WO&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_3_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_J1SRH6YNV0WO_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_3_NA_view-all_2&cid=J1SRH6YNV0WO</span>
+                <span class="reporter-method-output">Test on pages are :Microwaves
+Shop Now!
+Cooking Made Easy!<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/air-purifiers/pr?sid=j9e%2Cabm%2C3o4&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.4ZVNIKQKU9AJ&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_4_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_4ZVNIKQKU9AJ_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_4_NA_view-all_2&cid=4ZVNIKQKU9AJ</span>
+                <span class="reporter-method-output">Test on pages are :Top Air Purifiers
+Shop Now!
+Breathe Fresh & Clean!<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/water-purifiers/pr?sid=j9e%2Cabm%2Ci45&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.8I49H8LGQU8W&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_5_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_8I49H8LGQU8W_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_5_NA_view-all_2&cid=8I49H8LGQU8W</span>
+                <span class="reporter-method-output">Test on pages are :Top Water Purifiers
+Shop Now!
+Drink Pure | Stay Healthy!<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/mobile-accessories/power-banks/pr?sid=tyy%2C4mr%2Cfu6&p%5B%5D=facets.cnc%255B%255D%3DSuperCoins%2BPrice&fm=neo%2Fmerchandising&iid=M_be4895b3-e884-4b42-a4d4-2102a77f1cc4_4.CO8N31MPH19Z&ppt=None&ppn=None&ssid=7bcym4icqo0000001632236847900&otracker=clp_omu_Budget%2BDeals_6_4.dealCard.OMU_paywith-supercoins-store_paywith-supercoins-store_CO8N31MPH19Z_2&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Budget%2BDeals_NA_dealCard_cc_6_NA_view-all_2&cid=CO8N31MPH19Z</span>
+                <span class="reporter-method-output">Test on pages are :Powerbanks
+Min Extra 5% Off
+Upto 60% Off<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/helpcentre?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Contact Us<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/about-us?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :About Us<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkartcareers.com/?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Careers<br/></span>
+                <span class="reporter-method-output">Links on pages are :http://stories.flipkart.com/?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Flipkart Stories<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/s/press?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Press<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkartwholesale.com/?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Flipkart Wholesale<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/corporate-information</span>
+                <span class="reporter-method-output">Test on pages are :Corporate Information<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/pages/payments</span>
+                <span class="reporter-method-output">Test on pages are :Payments<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/pages/shipping</span>
+                <span class="reporter-method-output">Test on pages are :Shipping<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG</span>
+                <span class="reporter-method-output">Test on pages are :Cancellation & Returns<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG</span>
+                <span class="reporter-method-output">Test on pages are :FAQ<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://seller.flipkart.com/fiv?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Report Infringement<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/pages/returnpolicy?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Return Policy<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/pages/terms?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Terms Of Use<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/pages/paymentsecurity?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Security<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/pages/privacypolicy?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Privacy<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/sitemap?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Sitemap<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/pages/ewaste-compliance-tnc?otracker=undefined_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :EPR Compliance<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.facebook.com/flipkart</span>
+                <span class="reporter-method-output">Test on pages are :Facebook<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.twitter.com/flipkart</span>
+                <span class="reporter-method-output">Test on pages are :Twitter<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.youtube.com/flipkart</span>
+                <span class="reporter-method-output">Test on pages are :YouTube<br/></span>
+                <span class="reporter-method-output">Links on pages are :tel:18002029898</span>
+                <span class="reporter-method-output">Test on pages are :1800 202 9898<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect</span>
+                <span class="reporter-method-output">Test on pages are :Sell On Flipkart<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://brands.flipkart.com/</span>
+                <span class="reporter-method-output">Test on pages are :Advertise<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/the-gift-card-store?otracker=undefined_footer_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Gift Cards<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/helpcentre?otracker=undefined_footer_footer_navlinks</span>
+                <span class="reporter-method-output">Test on pages are :Help Center<br/></span>
+                <span class="reporter-method-output">Links on pages are :https://www.flipkart.com/paywith-supercoins-store?_pxhc=1632236848100</span>
+                <span class="reporter-method-output">Test on pages are :<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Team_5" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Team_5" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testScripts.TC_HomePageValidation_01</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome, https://www.flipkart.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">handleElectronics</span>
+                <span class="method-start">13504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17540 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testScripts.TC_SuperCoin_01_1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome, https://www.flipkart.com/)</span>
+                <span class="method-start">28496 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">handleCoin</span>
+                <span class="method-start">42554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66520 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testScripts.TC_SuperCoin_1_2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome, https://www.flipkart.com/)</span>
+                <span class="method-start">74582 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">handleWishlist</span>
+                <span class="method-start">88189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99400 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
