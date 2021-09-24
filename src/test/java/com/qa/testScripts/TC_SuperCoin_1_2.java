@@ -59,6 +59,7 @@ public class TC_SuperCoin_1_2 extends TestBase {
 			// Deleat Wishlist Item
 			FP_OR.getDeleateItemCart().click();
 			Thread.sleep(3000);
+			// Deleat confirm Wishlist Item
 			FP_OR.geCnfrmDeleateItemCart().click();
 			Thread.sleep(3000);
 
