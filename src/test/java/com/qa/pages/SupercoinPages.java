@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class SupercoinPages {
 
-
 	WebDriver driver;
 
 	// For uncliking popup
@@ -22,10 +21,8 @@ public class SupercoinPages {
 		return ClosePopUp;
 
 	}
- 
-	// Login
+
 	// a username
-	// For uncliking popup
 	@FindBy(xpath = "/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input")
 
 	WebElement userName;
@@ -36,7 +33,7 @@ public class SupercoinPages {
 	}
 
 	// password
-	
+
 	@FindBy(xpath = "/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input")
 
 	WebElement passWord;
@@ -103,7 +100,7 @@ public class SupercoinPages {
 	public WebElement getsuperCoinCount() {
 		return superCoinCount;
 	} // body/div[@id='container']/div[1]/div[3]/div[1]/div[1]/div[2]/div[4]/div[1]/a[1]/div[1]/div[1]/img[2]
-	// *[@id="container"]/div/div[3]/div/div/div[2]/div[4]/div/a/div/div/img[2]
+		// *[@id="container"]/div/div[3]/div/div/div[2]/div[4]/div/a/div/div/img[2]
 
 	@FindBy(xpath = "//body/div[@id='container']/div[1]/div[3]/div[1]/div[1]/div[2]/div[4]/div[1]/a[1]/div[1]/div[1]/img[2]")
 	WebElement exploreMore;
@@ -111,7 +108,7 @@ public class SupercoinPages {
 	public WebElement getexploreMore() {
 		return exploreMore;
 	}
-	
+
 	//// load all item
 	@FindBy(xpath = "/html/body/div/div/div[3]")
 
@@ -122,18 +119,19 @@ public class SupercoinPages {
 	}
 
 	/////////////////// selecting item //////////////////// //
-	//body/div[@id='container']/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/img[1]
-	@FindBy(xpath ="//body/div[@id='container']/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/img[1]")
+	// body/div[@id='container']/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/img[1]
+	@FindBy(xpath = "//body/div[@id='container']/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/img[1]")
 
 	WebElement SelectANItemt;
 
 	public WebElement getSelectANItemt() {
 		return SelectANItemt;
 	}
+
 	/// fav
-	//*[@id="container"]/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div[3]/div
+	// *[@id="container"]/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div[3]/div
 	// body/div[@id='container']/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/div[3]/div[1]/*[1]
-	@FindBy(xpath ="//*[@id=\"container\"]/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div[3]")
+	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div[3]")
 
 	WebElement AddFavrt;
 
@@ -144,15 +142,16 @@ public class SupercoinPages {
 	// div[contains(text(),'Wishlist')]
 
 	/// wishlist
-	@FindBy(xpath ="//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]")
+	@FindBy(xpath = "//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[5]/a[1]")
 
 	WebElement GoToWishlist;
 
 	public WebElement getGoToWishlist() {
 		return GoToWishlist;
 	}
-	//body/div[@id='container']/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/a[1]
-	@FindBy(xpath ="//*[@id=\"container\"]/div/div[3]/div/div[2]/div/div/div[2]/a")
+
+	// body/div[@id='container']/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/a[1]
+	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div/div[2]/div/div/div[2]/a")
 
 	WebElement SelectItemInWishListed;
 
@@ -161,9 +160,8 @@ public class SupercoinPages {
 	}
 
 	///////////////////// Select size
-	///////////////////// //body/div[@id='container']/div[1]/div[3]/div[1]/div[2]/div[6]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]
-	// body/div[@id='container']/div[1]/div[3]/div[1]/div[2]/div[6]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]
-	@FindBy(xpath ="//*[@id=\"swatch-0-size\"]/a")
+
+	@FindBy(xpath = "//*[@id=\"swatch-0-size\"]/a")
 
 	WebElement SelectSize;
 
@@ -171,37 +169,36 @@ public class SupercoinPages {
 		return SelectSize;
 
 	}
-     ////////////////////////////ReadingPower
-	
-	@FindBy(xpath ="//*[@id=\"swatch-0-reading_power\"]/a")
+	//////////////////////////// ReadingPower
+
+	@FindBy(xpath = "//*[@id=\"swatch-0-reading_power\"]/a")
 
 	WebElement ReadingPower;
 
 	public WebElement getReadingPower() {
 		return ReadingPower;
 	}
-	
-	
-	//button[contains(text(),'Deliver Here')]    ///   //button[contains(text(),'CONTINUE')]
-	
-	@FindBy(xpath ="//button[contains(text(),'Deliver Here')]")
+
+	// button[contains(text(),'Deliver Here')] ///
+	// //button[contains(text(),'CONTINUE')]
+
+	@FindBy(xpath = "//button[contains(text(),'Deliver Here')]")
 
 	WebElement DeliverHere;
 
 	public WebElement getDeliverHere() {
 		return DeliverHere;
 	}
-	
-	
-	@FindBy(xpath ="//button[contains(text(),'CONTINUE')]")
+
+	@FindBy(xpath = "//button[contains(text(),'CONTINUE')]")
 
 	WebElement DeliverHereContinue;
 
 	public WebElement getDeliverHereContinue() {
 		return DeliverHereContinue;
 	}
-	
-	@FindBy(xpath ="//*[@id=\"container\"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[2]/form/button")
+
+	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[2]/form/button")
 
 	WebElement BuyNow;
 
@@ -209,16 +206,6 @@ public class SupercoinPages {
 		return BuyNow;
 	}
 
-	////// Select a check box
-
-	/*
-	 * @FindBy(xpath=
-	 * "//*[@id=\"container\"]/div/div[2]/div/div[1]/div[2]/div/div/div/div[1]/label[2]/div[1]")
-	 * WebElement AdressCheckBox;
-	 * 
-	 * public Select getAdressCheckBox() { Select pass = new Select(AdressCheckBox);
-	 * return pass; }
-	 */
 	@FindBy(xpath = "//*[@id=\\\"container\\\"]/div/div[2]/div/div[1]/div[2]/div/div/div/div[1]/label[2]/div[1]")
 
 	WebElement AdressCheckBox;
@@ -240,19 +227,16 @@ public class SupercoinPages {
 
 	WebElement CnfrmDeleateItemCart;
 
-	
- 
 	public WebElement geCnfrmDeleateItemCart() {
 		return CnfrmDeleateItemCart;
 	}
 
-	
-	
 	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div/div[2]/div/div/div[1]/span")
 
 	WebElement WhishListLocator;
 
 	public Object getWhishListLocator;
+
 	public WebElement getWhishListLocator() {
 		return WhishListLocator;
 	}
@@ -261,19 +245,20 @@ public class SupercoinPages {
 
 	WebElement NoItemInWhishlist;
 
-	//public Object ;//*[@id="container"]/div/div[3]/div/div[2]/div/div/div/span[1]
+	// public Object ;//*[@id="container"]/div/div[3]/div/div[2]/div/div/div/span[1]
 	public WebElement getNoItemInWhishlist() {
 		return NoItemInWhishlist;
 	}
+
 	@FindBy(xpath = "//*[@id=\\\"container\\\"]/div/div[3]/div/div[2]/div[1]/div/div/h1")
 
 	WebElement itemNamee;
 
-	//public Object ;//*[@id="container"]/div/div[3]/div/div[2]/div/div/div/span[1]
+	// public Object ;//*[@id="container"]/div/div[3]/div/div[2]/div/div/div/span[1]
 	public WebElement getitemNamee() {
 		return itemNamee;
 	}
-	 
+
 	public SupercoinPages(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);

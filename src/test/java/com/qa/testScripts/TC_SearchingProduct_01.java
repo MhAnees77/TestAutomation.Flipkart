@@ -1,4 +1,4 @@
- package com.qa.testScripts;
+package com.qa.testScripts;
 
 import java.io.IOException;
 import java.util.List;
@@ -20,13 +20,12 @@ import com.qa.pages.SearchingProductPages;
 import com.qa.pages.SupercoinPages;
 import com.qa.utility.XLUtility;
 
-
 public class TC_SearchingProduct_01 extends TestBase {
 
 	@Test(dataProvider = "searchData")
 	public void handleSearchItems(String[] data1) throws Throwable {
-	
-		Thread.sleep(3000);  
+
+		Thread.sleep(3000);
 		String parent = driver.getWindowHandle();
 
 		WebElement clearTesxtfield = FPS.getsearchtextfield();
@@ -37,7 +36,7 @@ public class TC_SearchingProduct_01 extends TestBase {
 		FPS.getMagnifierBttn().click();
 		Thread.sleep(4000);
 		String title = FPS.getTextContains().getText();
- 
+
 		if (title.contains(data1[0])) {
 			Reporter.log("The Searched Item is: Presesnt ", true);
 		} else {
@@ -45,9 +44,7 @@ public class TC_SearchingProduct_01 extends TestBase {
 			captureScreenShot(driver, "NO Item is found");
 			Assert.assertTrue(false, "NO Item is found");
 		}
-		
-		
-		
+
 		act.moveToElement(clearTesxtfield).doubleClick().click().sendKeys(Keys.BACK_SPACE).perform();
 		Thread.sleep(3000);
 
@@ -78,11 +75,9 @@ public class TC_SearchingProduct_01 extends TestBase {
 			captureScreenShot(driver, "NO Item is found");
 			Assert.assertTrue(false, "NO Item is found");
 		}
-		
-		
 
 		act.moveToElement(clearTesxtfield).doubleClick().click().sendKeys(Keys.BACK_SPACE).perform();
-		Thread.sleep(3000); 
+		Thread.sleep(3000);
 		FPS.getsearchtextfield().sendKeys(data1[3]);
 		FPS.getMagnifierBttn().click();
 		Thread.sleep(4000);
@@ -96,33 +91,21 @@ public class TC_SearchingProduct_01 extends TestBase {
 			Assert.assertTrue(false, "NO Item is found");
 		}
 
-		
 		Thread.sleep(3000);
 		FPS.getClickItem().click();
 		/// to handle windows
 		Set<String> handle = driver.getWindowHandles();// gets window name
 
 		for (String se : handle) {
-			driver.switchTo().window(se); 
+			driver.switchTo().window(se);
 		}
 		FPS.getClickAddToCart().click();
-		//FP_OR.getBuyNow().click();
+		// FP_OR.getBuyNow().click();
 		Thread.sleep(5000);
-		FPS.getClickAddToCartCnfrm().click(); 
+		FPS.getClickAddToCartCnfrm().click();
 		Thread.sleep(4000);
 		driver.switchTo().window(parent);
-		
-		// To bus now
-		// FP.getGoUpi().click();
-		// FP.getSendmail().sendKeys(data1[2]);
-		// Thread.sleep(1000);
-		// .getSendmailToContinue().click();
-		// FP.getDeliverHere().click();
-		// Thread.sleep(1000);
 
-		// FP.getDeliverHereContinue().click();
-		// FP.getGoUpi().click();
-		//driver.switchTo().window(parent);
 	}
 
 	@DataProvider(name = "searchData")

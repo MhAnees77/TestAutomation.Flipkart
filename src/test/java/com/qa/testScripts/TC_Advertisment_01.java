@@ -16,47 +16,39 @@ import com.qa.pages.HomePageValidationPages;
 
 public class TC_Advertisment_01 extends TestBase {
 
-@Test
+	@Test
 	public void handleAdvertisement() throws Throwable {
 
-		
-
 		Thread.sleep(2000);
-		WebElement elem= Flipsearch.getAdvertise();
-		Js.executeScript("arguments[0].scrollIntoView()",elem);
+		WebElement elem = Flipsearch.getAdvertise();
+		Js.executeScript("arguments[0].scrollIntoView()", elem);
 		elem.click();
 		Thread.sleep(2000);
-		
-		//add assert here to make sure that landed on brandpulse page
+
+		// add assert here to make sure that landed on brandpulse page
 		String title = Flipsearch.getBrandText().getText();
-		 
+
 		if (title.contains("Brand Pulse")) {
 			Reporter.log("The Searched Item is: Presesnt ", true);
-		
-		
-		
-				Flipsearch.getSearchBox().sendKeys("Realme");
-				Thread.sleep(5000);
-				Flipsearch.getsearchbutton().click();
-				Thread.sleep(5000);
-				
-				Flipsearch.getaddbrand().click();
-				Flipsearch.getBrand2().sendKeys("samsung");
-				Thread.sleep(5000);
-				Flipsearch.getsearch().click();
-				
-				driver.navigate().to("https://www.flipkart.com");
-				Thread.sleep(3000); 
-				
+
+			Flipsearch.getSearchBox().sendKeys(prop.getProperty("Brand1"));
+			Thread.sleep(5000);
+			Flipsearch.getsearchbutton().click();
+			Thread.sleep(5000);
+
+			Flipsearch.getaddbrand().click();
+			Flipsearch.getSearchBox().sendKeys(prop.getProperty("Brand2"));
+			Thread.sleep(5000);
+			Flipsearch.getsearch().click();
+
+			driver.navigate().to("https://www.flipkart.com");
+			Thread.sleep(3000);
+
 		} else {
 			Reporter.log("The Searched Item is: Not Present", true);
 			captureScreenShot(driver, "Page NOT Found");
 			Assert.assertTrue(false, "Page NOT Found");
 		}
-		
 
-		
-
-
-}
+	}
 }

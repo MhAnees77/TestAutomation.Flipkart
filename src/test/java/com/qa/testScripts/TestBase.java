@@ -45,17 +45,17 @@ public class TestBase {
 	JavascriptExecutor Js;
 	TakesScreenshot ts;
 	String parent;
-	WebElement login; 
+	WebElement login;
 	String superCoinCountt;
-	SoftAssert sa = new SoftAssert(); 
+	SoftAssert sa = new SoftAssert();
 	Properties prop;
 	FileInputStream fileLoc;
 
-	SupercoinPages FP_OR ;
-	AdvertisementPages Flipsearch ;
+	SupercoinPages FP_OR;
+	AdvertisementPages Flipsearch;
 	HomePageValidationPages Fp;
-	SearchingProductPages FPS ;
-	CartValidationPages FPP ;
+	SearchingProductPages FPS;
+	CartValidationPages FPP;
 	FlightPages page;
 
 	@BeforeClass
@@ -87,18 +87,18 @@ public class TestBase {
 		act = new Actions(driver);
 		FP_OR = new SupercoinPages(driver);
 		Fp = new HomePageValidationPages(driver);
-		 Flipsearch = new AdvertisementPages(driver);
-		 FPS = new SearchingProductPages(driver);
+		Flipsearch = new AdvertisementPages(driver);
+		FPS = new SearchingProductPages(driver);
 		FPP = new CartValidationPages(driver);
 		page = new FlightPages(driver);
 		Js = (JavascriptExecutor) driver;
-		fileLoc= new FileInputStream("C:\\WORKSPACE\\TestAutomation.Flipkart\\src\\test\\java\\com\\qa\\testdata\\testData.properties");
-		prop=new Properties();
+		fileLoc = new FileInputStream(
+				"C:\\WORKSPACE\\TestAutomation.Flipkart\\src\\test\\java\\com\\qa\\testdata\\testData.properties");
+		prop = new Properties();
 		prop.load(fileLoc);
-		 handleLogin(); 
-		//driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
-		
-		           
+		handleLogin();
+		// driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
+
 	}
 
 	@AfterClass
@@ -107,24 +107,18 @@ public class TestBase {
 		driver.quit();
 	}
 
-	
-	 
-public void handleLogin() throws  InterruptedException {
-		 
-	
-	
+	public void handleLogin() throws InterruptedException, Throwable {
+
 		FP_OR.getuserName().sendKeys(prop.getProperty("username"));
 		Thread.sleep(2000);
 		FP_OR.getpassWord().sendKeys(prop.getProperty("passwordd"));
 		Thread.sleep(2000);
 		FP_OR.getsignIn().click();
-		//captureScreenShot(driver, "LogIn");
-		Reporter.log("========LOGIN SUCCESFULL=========="); 
+		captureScreenShot(driver, "LogIn");
+		Reporter.log("========LOGIN SUCCESFULL==========");
 		Thread.sleep(3000);
 	}
-	
-	
-	
+
 	public void captureScreenShot(WebDriver Driver, String tname) throws IOException {
 		ts = (TakesScreenshot) Driver;
 		File Source = ts.getScreenshotAs(OutputType.FILE);
@@ -133,18 +127,19 @@ public void handleLogin() throws  InterruptedException {
 		System.out.println("Screenshot captured");
 	}
 
-	
-	
-	 public void handleLogOut() throws InterruptedException, IOException {
-	  
-	  WebElement login = FP_OR.getmouseHowerOnLogin();
-	 act.moveToElement(login).build().perform();
-	   
-	  FP_OR.getMyrofile().click(); Thread.sleep(3000);
-	  
-	 Js.executeScript("window.scrollBy(0,350)"); Thread.sleep(2000);
-	  
-	  FP_OR.getlogOut().click();
-	  
-	 Thread.sleep(2000); }
+	public void handleLogOut() throws InterruptedException, IOException {
+
+		WebElement login = FP_OR.getmouseHowerOnLogin();
+		act.moveToElement(login).build().perform();
+
+		FP_OR.getMyrofile().click();
+		Thread.sleep(3000);
+
+		Js.executeScript("window.scrollBy(0,350)");
+		Thread.sleep(2000);
+
+		FP_OR.getlogOut().click();
+
+		Thread.sleep(2000);
+	}
 }

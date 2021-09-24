@@ -29,8 +29,7 @@ public class TC_SuperCoin_01_1 extends TestBase {
 
 	@Test
 	public void handleCoin() throws Throwable { 
-		//FP_OR = new SupercoinPages(driver);
-	  //driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
+		
           Thread.sleep(2000); 
         System.out.println("done");
 		String parent = driver.getWindowHandle(); 
@@ -102,8 +101,7 @@ public class TC_SuperCoin_01_1 extends TestBase {
 			
 			//driver.switchTo().window(parent); 
 			
-		}
-			else if (superCoinCount > 500 || superCoinCount <= 0) {
+		}			else if (superCoinCount > 500 || superCoinCount <= 0) {
 				captureScreenShot(driver, " low supercoin ");
 				// SOFT assertion
 				sa.assertTrue(false, "Supercoin is less here");

@@ -12,13 +12,13 @@ public class SearchingProductPages {
 	WebDriver driver;
 
 	// For
-	@FindBy(xpath ="/html/body/div[2]/div/div/button")
+	@FindBy(xpath = "/html/body/div[2]/div/div/button")
 
 	WebElement ClosePopUp;
 
 	public WebElement getClosePopUp() {
 		return ClosePopUp;
- 
+
 	}
 
 	@FindBy(xpath = "//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/input[1]")
@@ -44,7 +44,6 @@ public class SearchingProductPages {
 		return MouseHower;
 
 	}
-	//*[@id="container"]/div/div[3]/div[1]/div[2]/div[2]/div/div/div
 
 	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div[1]/div[2]/div[2]/div/div/div")
 	WebElement ClickItem;
@@ -62,7 +61,7 @@ public class SearchingProductPages {
 
 	}
 
-	//*[@id="container"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button
+	// *[@id="container"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button
 
 	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button")
 	WebElement ClickAddToCart;
@@ -71,8 +70,8 @@ public class SearchingProductPages {
 		return ClickAddToCart;
 
 	}
-	
-	////*[@id="container"]/div/div[2]/div/div/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[3]/button
+
+	//// *[@id="container"]/div/div[2]/div/div/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[3]/button
 	@FindBy(xpath = "//*[@id=\"container\"]/div/div[2]/div/div/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[3]/button")
 	WebElement ClickAddToCartCnfrm;
 
@@ -80,8 +79,9 @@ public class SearchingProductPages {
 		return ClickAddToCartCnfrm;
 
 	}
-	
-	// search item name  //*[@id="container"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button
+
+	// search item name
+	// //*[@id="container"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button
 
 	@FindBy(xpath = "//button[contains(text(),'Deliver Here')]")
 
@@ -99,8 +99,6 @@ public class SearchingProductPages {
 		return DeliverHereContinue;
 	}
 
-	// *[@id="container"]/div/div[2]/div/div[1]/div[4]/div/div/div[2]/div/label[1]/div[1]
-
 	@FindBy(xpath = "//*[@id=\"container\"]/div/div[2]/div/div[1]/div[4]/div/div/div[2]/div/label[1]/div[1]")
 
 	WebElement GoUpi;
@@ -109,7 +107,6 @@ public class SearchingProductPages {
 		return GoUpi;
 	}
 
-	// *[@id="container"]/div/div[2]/div/div[1]/div[3]/div/div/div/div/div[5]/span[1]/form/input
 	@FindBy(xpath = "//*[@id=\"container\"]/div/div[2]/div/div[1]/div[3]/div/div/div/div/div[5]/span[1]/form/input")
 
 	WebElement Sendmail;
@@ -119,7 +116,6 @@ public class SearchingProductPages {
 
 	}
 
-	// *[@id="container"]/div/div[3]/div[1]/div[2]/div[1]/div/div/span/span
 	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div[1]/div[2]/div[1]/div/div/span/span")
 
 	WebElement TextContains;
